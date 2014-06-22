@@ -13,3 +13,12 @@
 [submodule "/home/mikey/.vim/bundle/vim-ruby"]
 	path = /home/mikey/.vim/bundle/vim-ruby
 	url = git://github.com/vim-ruby/vim-ruby.git
+[submodule "bundle/vim-coffee-script"]
+	path = bundle/vim-coffee-script
+	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "bundle/vim-rails"]
+	path = bundle/vim-rails
+	url = git://github.com/tpope/vim-rails.git
+[submodule "bundle/vim-ruby"]
+	path = bundle/vim-ruby
+	url = git://github.com/vim-ruby/vim-ruby.git
