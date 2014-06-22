@@ -1,0 +1,6 @@
+
+To use:
+
+* cd ~
+* git clone git@github.com:mikeyhogarth/vim-config.git .vim
+* ln .vim/.vimrc .vimrc
