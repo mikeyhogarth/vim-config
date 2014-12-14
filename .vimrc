@@ -33,3 +33,8 @@ colorscheme mikey
 
 " Mappings
 map <C-n> :NERDTreeToggle<CR>
+
+
+" Plugins
+let g:miniBufExplVSplit = 20   " column width in chars
+let g:miniBufExplBRSplit = 1 
