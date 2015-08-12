@@ -25,3 +25,6 @@
 [submodule "bundle/minibufexpl"]
 	path = bundle/minibufexpl
 	url = https://github.com/fholgado/minibufexpl.vim
+[submodule "bundle/vim-jade"]
+	path = bundle/vim-jade
+	url = git://github.com/digitaltoad/vim-jade.git
