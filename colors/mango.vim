@@ -1,12 +1,20 @@
 " Vim color file -- Mango
 " Maintainer:   Josh Perez <josh@goatslacker.com>
 " Version: 1.5.1
+" (Adapted by Mikey)
 
 " mango.vim {{{
   set t_Co=256
   let g:colors_name = "mango"
   let bgcolor = &background
   highlight clear SignColumn
+" }}}
+
+
+" NodeJsMatches: {{{
+  syntax match Keyword /require\|process\|module\|exports\|__dirname\|__filename/
+
+
 " }}}
 
 " Colors: {{{
@@ -86,11 +94,11 @@
     exe "hi Delimiter "       .White
     exe "hi Exception "       .Peach
     exe "hi Float "           .Blue
-    exe "hi Function "        .White
-    exe "hi Identifier "      .White
+    exe "hi Function "        .Orange
+    exe "hi Identifier "      .Peach
     exe "hi Ignore "          .Blue
-    exe "hi Include "         .Purple
-    exe "hi Keyword "         .Peach
+    exe "hi Include "         .Peach
+    exe "hi Keyword "         .Purple
     exe "hi Label "           .Peach
     exe "hi LineNr "          .Black
     exe "hi Macro "           .Purple
