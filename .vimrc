@@ -26,10 +26,10 @@ filetype indent on
 
 
 " Syntax Highlighting and color scheme
-syntax enable
 set background=dark 
-autocmd BufEnter * colorscheme mikey
-autocmd BufEnter *.js colorscheme mango
+set t_Co=256
+syntax on
+autocmd BufEnter * colorscheme distinguished
 
 
 " Mappings
