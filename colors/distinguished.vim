@@ -72,10 +72,10 @@ call s:ColorDictParser({
 	\ , 'WarningMsg'                  : [    202,     '',           'bold',      'ff5f00',        '',           'bold']
 	\ , 'ErrorMsg'                    : [    196,     '',           'bold',      'ff0000',        '',           'bold']
 	\
-	\ , 'Comment'                     : [    235,    '',               '',      '555555',        '',               '']
-	\ , 'vimCommentTitleLeader'       : [    235,    '',               '',      '555555',        '',               '']
-	\ , 'vimCommentTitle'             : [    235,    '',               '',      '555555',        '',               '']
-	\ , 'vimCommentString'            : [    235,    '',               '',      '555555',        '',               '']
+	\ , 'Comment'                     : [    240,    '',               '',      '555555',        '',               '']
+	\ , 'vimCommentTitleLeader'       : [    240,    '',               '',      '555555',        '',               '']
+	\ , 'vimCommentTitle'             : [    240,    '',               '',      '555555',        '',               '']
+	\ , 'vimCommentString'            : [    240,    '',               '',      '555555',        '',               '']
 	\
 	\ , 'TabLine'                     : [    231,    238,               '',      'ffffff',  '444444',               '']
 	\ , 'TabLineSel'                  : [    255,     '',           'bold',      'eeeeee',        '',           'bold']
